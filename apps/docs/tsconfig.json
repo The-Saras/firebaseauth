@@ -1,6 +1,7 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
+    "strict": false,
     "plugins": [
       {
         "name": "next"
@@ -16,5 +17,6 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  
 }
